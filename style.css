@@ -22,7 +22,7 @@ body{
     height: 80px;
     width: 100%;
     background: rgba(22, 21, 21, 0.3);
-    backdrop-filter: blur(550px);
+    backdrop-filter: blur(600px);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -66,7 +66,7 @@ nav a:hover{
 section{
  min-width: 100vw;
  padding: 80px 12%;
- height: 100vh;
+ min-height: 100vh;
 }
 img{
     width: 350px;
@@ -151,6 +151,9 @@ h1{
     box-shadow: 0 0 30px aqua ;
 }
 
+#services{
+    /* background-color: purple; */
+}
 #services h2{
     font-size: 50px;
     font-weight: 700;
@@ -160,9 +163,10 @@ h1{
     width: 100%;
     display:flex;
    text-align: center;
-   justify-content: space-between;
+   justify-content: center;
    align-items: center;
    flex-wrap: wrap;
+
    /* padding:2%; */
   
    
@@ -194,6 +198,13 @@ h1{
     transform: scale(1.01);
 
  }
+
+ #contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+ }
 form{
     background-color:rgb(22, 22, 22) ;
     width: 400px;
@@ -215,7 +226,7 @@ form h2{
 form input{
     width: 100%;
     height: 40px;
-    display: block;
+    
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     margin-bottom: 15px;
@@ -239,12 +250,7 @@ input::placeholder, textarea::placeholder{
     font-size: 17px;
     
 }
-#contact{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
+
 form button{
     width: 100%;
     height: 40px;
@@ -261,7 +267,7 @@ form button:hover{
 
 @media screen and (max-width: 706px){
 .navbar{
-    display: none;
+    /* display: none; */
     position: absolute;
     right: 20%;
     top: 34%;
@@ -271,7 +277,7 @@ form button:hover{
     margin: 10px 0;
     display: block;
 }
-#menu{
+#menu, #cancel{
     display: block;
 }
 
@@ -284,6 +290,9 @@ img{
     margin: 30px 0 0 0;
 
 }
+section{
+    padding: 10px 20%;
+}
 
 h1{
     font-size: 30px;
@@ -295,4 +304,7 @@ h1{
     width: 100%;
 }
 
+.hidden{
+    display: none !important;
+}
 }
