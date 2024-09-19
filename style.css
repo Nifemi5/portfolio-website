@@ -22,7 +22,7 @@ body{
     height: 80px;
     width: 100%;
     background: rgba(22, 21, 21, 0.3);
-    backdrop-filter: blur(600px);
+    backdrop-filter: blur(60px);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -74,6 +74,7 @@ img{
     border-radius: 50%;
     box-shadow: 0 0 30px green;
     transition: 0.7s ease;
+    /* margin-top: 70px; */
     cursor: pointer;
 }
 img:hover{
@@ -151,9 +152,6 @@ h1{
     box-shadow: 0 0 30px aqua ;
 }
 
-#services{
-    /* background-color: purple; */
-}
 #services h2{
     font-size: 50px;
     font-weight: 700;
@@ -287,12 +285,13 @@ form button:hover{
 }
 img{
     /* width: 100%; */
-    margin: 30px 0 0 0;
+    margin: 50px 0 0 0;
 
 }
 section{
-    padding: 10px 20%;
+    padding: 80px 20%;
 }
+
 
 h1{
     font-size: 30px;
