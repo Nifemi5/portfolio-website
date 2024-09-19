@@ -142,7 +142,7 @@ menu.addEventListener('click', function(){
 });
 
 cancel.addEventListener('click', function(){
-    cancel.classList.toggle("hidden");
+    menu.classList.toggle("hidden");
     cancel.classList.toggle("hidden");
     navbar.classList.toggle("hidden");
 }

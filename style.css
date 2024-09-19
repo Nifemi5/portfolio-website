@@ -9,6 +9,8 @@
     scrollbar-shadow-color: aqua;
     scrollbar-color: aqua;
     scrollbar-width: thin;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
   
     
 }
@@ -267,8 +269,9 @@ form button:hover{
 .navbar{
     /* display: none; */
     position: absolute;
-    right: 20%;
+    right: 10%;
     top: 34%;
+    /* nav-down: 20%; */
 
 }
 .navbar a{
